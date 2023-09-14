@@ -5,12 +5,14 @@ int Foo() {
 }
 
 int Bar() [
-
+    std::cout << "hello rose" << std::endl;
 ]
 
 int main(){
     std::cout << "hello lisa" << std::endl;
 
+
     Foo();
+    Bar();
     return 0;
 }
